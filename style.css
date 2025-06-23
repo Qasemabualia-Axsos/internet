@@ -1,0 +1,163 @@
+body{
+    background: linear-gradient(to bottom, #a6a9ac 0%, #ffffff 30%);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: white;
+}
+header,.main,.what-is-internet,.learn-more,.right-nav,.dns,.right-middle,.bottom,.phone-number{
+    display: flex;
+}
+header,nav{
+    height: 80px;
+}
+header h1{
+     font-size: 50px;
+}
+header h1 , .learn-more{
+    margin-top: 30px;
+}
+#net{
+    color: #25639a;
+}
+#internet{
+    color: red;
+}
+.net-logo{
+    position: relative;
+    top: 20px;
+}
+.net-logo,.learn-more button{
+    margin-left: 20px;
+}
+.net-logo,.left-bottom img{
+    width: 100px;
+}
+nav{
+    background-color: #4d80aa;
+}
+nav,.blue-btn,.orange-btn,.learn-more p,.learn-more h2,.learn-more button{
+    color: white;
+}
+nav p{
+    padding: 18px 0 0 30px;
+    font-size: 40px;
+}
+.main,.right-nav{
+    justify-content: space-between;
+}
+.what-is-internet{
+    margin: 25px 50px 0 0 ;
+    height:280px;
+}
+.what-is-internet,.blue-btn,.orange-btn,.left-bottom img{
+    margin-left: 10px;
+}
+.what-is-internet,.learn-more,.right-middle{
+    flex-direction: column;
+}
+.what-is-internet p,.learn-more p,.learn-more h2,#color-of-phone-number{
+    font-weight: bold;
+}
+#inter,.right-middle h1 ,.right-bottom h1{
+    color: #2265a1;
+}
+.blue-btn{
+    background-color: #3472a7;
+    margin-top: 20px;
+}
+.orange-btn{
+    background-color: #ee8100;
+    margin-top: 5px;
+}
+.blue-btn,.orange-btn{
+    margin-right: 20px;
+    height: 50px;
+}
+.blue-btn,.orange-btn,.learn-more button{
+    border-radius: 15px;
+}
+.learn-more{
+    background-image: url(./images/ad_background.png);
+    margin-right: 50px;
+    height:350px;
+}
+.learn-more,.bottom{
+    padding-top: 20px;
+}
+.learn-more p,.learn-more h2{
+    text-align: center;
+}
+.learn-more img{
+    width: 120px;
+}
+.learn-more img,.right-middle ul ,.right-middle ol{
+    margin-left: 60px;
+}
+.learn-more button{
+    width: 80%;
+    height: 40px;
+    background-color: #3ec9de;
+}
+.right-side{
+    width: 1300px;
+}
+.right-nav{
+    height: 70px;
+}
+.right-nav,.what-is-internet{
+    border-bottom: solid 1px grey;
+}
+.home-logo{
+    width: 30px;
+    height: 30px;
+}
+.phone-logo{
+    width: 50px;
+    height: 70%;
+    margin-right: 30px;
+    padding-top: 8px;
+}
+#color-of-phone-number{
+    font-size: 25px;
+    color: #00c0e1;
+}
+.dns{
+    margin-top: 10px;
+}
+.phone-number{
+    justify-content: space-around;
+}
+.phone-number ul{
+    list-style-type: none;
+}
+.right-middle p,.learn-more p,.learn-more h2{
+    font-size: 30px;
+}
+#web{
+    color: #14a0b4;
+}
+.right-middle ul ,.right-middle ol{
+    padding-top: 15px;
+}
+.server-photo{
+    width: 500px;
+    margin: auto;
+}
+#italic{
+    font-style: italic;
+}
+.bottom{
+    border: 6px solid #0185e0 ;
+    margin: 66px 10px 0 0;
+    border-bottom: none;
+}
+.right-bottom p,.right-middle ul ,.right-middle ol,.blue-btn,.orange-btn,.what-is-internet p{
+    font-size: 20px;
+}
+.right-bottom{
+    margin-left: 30px;
+}
